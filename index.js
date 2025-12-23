@@ -1,9 +1,9 @@
 // 문제 & 정답 (true = 예, false = 아니오)
 const quiz = [
     { question: "스마트팜은 아두이노로 제작하였다.", answer: true },
-    { question: "스마트팜은 인터넷 없이 작동한다.", answer: false },
+    { question: "아두이노는 조도센서, 초음파 센서, 온습도 센서를 사용한다.", answer: false },
     { question: "센서는 환경 정보를 측정한다.", answer: true },
-    { question: "아두이노는 프로그래밍이 불가능하다.", answer: false },
+    { question: "AI를 사용하여 레시피 추천 시스템을 도입하였다.", answer: false },
     { question: "스마트팜은 자동 제어가 가능하다.", answer: true }
 ];
 
