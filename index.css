@@ -1,0 +1,73 @@
+/* 전체 초기화 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans KR", sans-serif;
+    writing-mode: horizontal-tb;
+}
+
+/* 전체 레이아웃 */
+body {
+    min-height: 100vh;
+    background: #f5f7f5;
+    text-align: center;          /* ⭐ 핵심: 버튼 가로 정렬 */
+    padding: 40px;
+}
+
+/* 제목 */
+h1 {
+    color: #2e7d32;
+    margin-bottom: 16px;
+}
+
+h3 {
+    color: #444;
+    margin-bottom: 20px;
+}
+
+/* 문제 */
+h5 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #33691e;
+}
+
+/* 버튼 */
+button {
+    display: inline-block;       /* ⭐ 가로 배치 핵심 */
+    width: 90px;
+    padding: 10px 0;
+    margin: 0 8px 12px 8px;      /* 좌우 여백 */
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* 예 버튼 */
+button:nth-of-type(odd) {
+    background-color: #4caf50;
+    color: white;
+}
+
+/* 아니오 버튼 */
+button:nth-of-type(even) {
+    background-color: #f44336;
+    color: white;
+}
+
+/* 결과 */
+h3:nth-last-of-type(2) {
+    margin-top: 30px;
+    color: #2e7d32;
+    font-size: 22px;
+}
+
+h3:last-of-type {
+    margin-top: 10px;
+    color: #d32f2f;
+    font-size: 22px;
+}
