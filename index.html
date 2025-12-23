@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,23 +9,20 @@
 <body>
     <h1>아두이노 스마트팜 미니 테스트</h1>
     <h3>예비 산타 여러분 이 테스트를 통과하시면 열쇠를 획득하실 수 있습니다</h3>
-    <h5>스마트팜은 아두이노로 제작하였다.</h5>
-    <button>예</button>
-    <button>아니오</button>
-    <h5>스마트팜은 아두이노로 제작하였다.</h5>
-    <button>예</button>
-    <button>아니오</button>
-    <h5>스마트팜은 아두이노로 제작하였다.</h5>
-    <button>예</button>
-    <button>아니오</button>
-    <h5>스마트팜은 아두이노로 제작하였다.</h5>
-    <button>예</button>
-    <button>아니오</button>
-    <h5>스마트팜은 아두이노로 제작하였다.</h5>
-    <button>예</button>
-    <button>아니오</button>
 
-    <h3>합격</h3>
-    <h3>불합격</h3>
+    <h5 id="question"></h5>
+
+    <div>
+        <button id="yesBtn">예</button>
+        <button id="noBtn">아니오</button>
+    </div>
+
+    <p id="result"></p>
+
+    <button id="nextBtn">다음 문제 >></button>
+
+    <h3 id="finalResult"></h3>
+
+    <script src="index.js"></script>
 </body>
 </html>
